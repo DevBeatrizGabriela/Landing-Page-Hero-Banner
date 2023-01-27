@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #28293E;
+  border: none;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 2.5em;
+
+}
+
+.cabecalho-imagem {
+ width: 100px;
+ padding-left: 3.5em;
+
+}
+
+@media (min-width: 800px) {
+  .cabecalho-imagem {
+    padding-left: 6.5em;
+  }
+ 
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 2em;
+  padding-right: 2em;
+}
+
+.cabecalho-menu-item {
+  font-family: 'poppins', sans-serif;
+  color: #FCFCFF;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.cabecalho-menu-item-botao {
+  font-family: 'poppins', sans-serif;
+  color: #FCFCFF;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #E32454;
+  width: 100px;
+  height: 40px;
+  border: 5px;
+  border-radius: 4px;
+  padding: 7px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.cabecalho-menu-item-botao:hover {
+  background-color: #fff;
+  color:#28293E;
+}
+
+.conteudo {
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 40px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position:relative ;
+  right: 30px;
+  top: 1px;
+   
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  left: 90px;
+  top: 30px;
+}
+
+
+.conteudo-principal-escrito-titulo {
+  font: 500 65px 'poppins', sans-serif;
+  color: #FCFCFF;
+  line-height: 65px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font: 300 18px 'poppins', sans-serif;
+  color: #D5D5D6;
+  margin-top: 1px;
+}
+
+.conteudo-principal-caxinha {
+  padding-top: 10px;
+}
+.conteudo-principal-caixinha-input {
+  height: 40px;
+  width: 230px;
+  box-sizing: border-box;
+  background: transparent;
+  border:0.5px solid #D5D5D6;
+  border-radius: 5px;
+  background-image: url('icons8-nova-mensagem-24.png');
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  font: 300 12px 'poppins', sans-serif;
+  color: #fff;
+  transition: all 0.20s;
+}
+
+.conteudo-principal-caixinha-input:focus:hover{
+  outline: none;
+  box-shadow: 0px 0px 5px #61C5FA;
+  border:1px solid #5AB0DB;
+  border-radius:0;
+  
+  } 
+
+ 
+
+.conteudo-principal-caixinha-submit {
+  margin-left: 10px;
+  height: 40px;
+  width: 60px;
+  background: #E32454;
+  border: none;
+  border-radius: 5px;
+  font: 500 12px 'poppins', sans-serif;
+  cursor: pointer;
+  transition: all 0.20s;
+}
+
+.conteudo-principal-caixinha-submit:hover {
+  opacity: 0.7;
+}
+
+.conteudo-principal-imagem {
+  height: 600px;
+  width: 600px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.conteudo-principal-imagem-2 {
+  right: 90px;
+  height: 600px;
+  width: 600px;
+}
+
+.conteudo-principal-arroba {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 127px; 
+  bottom: 10px;
+  font: italic 500 12px poppins;
+  color: #fff;
+}
